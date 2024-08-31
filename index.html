@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- taiwindcss and daisyui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+    <header>
+        <nav class="justify-between">
+            <!-- This is nav container -->
+            <div class="flex bg-base-100">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg
+                       xmlns="http://www.w3.org/2000/svg"
+                        class="h-5 w-5"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M4 6h16M4 12h8m-8 6h16" />
+                      </svg>
+                    </div>
+                    <ul
+                      tabindex="0"
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                    </ul>
+                  </div>
+                  <a class="btn btn-ghost text-xl">Bike Dekho</a>
+                </div>
+                <div class="navbar-end hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                      <li><a>Home</a></li>
+                      <li><a>Shop</a></li>
+                      <li><a>News</a></li>
+                      <li><a>Contact</a></li>
+                    </ul>
+                  </div>
+                  <div class="navbar-end">
+                  <a class="btn">Login</a>
+                </div>
+              </div>
+        </nav>
+    </header>
+    <main>
+      <!-- section 1 -->
+          <section>
+              <div class="bg-red-50 mx-40 mt-10 ">
+                <div class="absolute pt-8 mx-40">
+                  <h1 class="text-5xl font-bold">Ride-on R15V4 <br>with Smile</h1>
+                  <p class="pt-4">Amet minim mollit non deserunt ullamco <br>est sit alipua dolor do amet sint. Velt officia consequat <br>duis enim veilt mollit.</p>
+                  <a class="btn bg-orange-400 px-10 text-2xl font-bold mt-8 text-white">Purchase</a>
+                </div>
+                <div class="carousel w-full">
+                  <div id="slide1" class="carousel-item relative w-full">
+                    <img
+                      src="assets/images/slider/bike1.png"
+                      class="w-80 h-80 absolute right-24" />
+                      <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                        <a href="#slide4" class="btn btn-circle">❮</a>
+                        <a href="#slide2" class="btn btn-circle">❯</a>
+                      </div>
+                  </div>
+                  <div id="slide2" class="carousel-item relative w-full">
+                    <img
+                      src="assets/images/slider/bike2.png"
+                      class="w-96 h-80 absolute right-24" />
+                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                      <a href="#slide1" class="btn btn-circle">❮</a>
+                      <a href="#slide3" class="btn btn-circle">❯</a>
+                    </div>
+                  </div>
+                  <div id="slide3" class="carousel-item relative w-full">
+                    <img
+                      src="assets/images/slider/bike3.png"
+                      class="w-80 h-80 absolute right-24" />
+                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                      <a href="#slide2" class="btn btn-circle">❮</a>
+                      <a href="#slide4" class="btn btn-circle">❯</a>
+                    </div>
+                  </div>
+                  <div id="slide4" class="carousel-item relative w-full">
+                    <img
+                      src="assets/images/slider/bike4.png"
+                      class="w-80 h-80 right-24" />
+                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                      <a href="#slide3" class="btn btn-circle">❮</a>
+                      <a href="#slide1" class="btn btn-circle">❯</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
